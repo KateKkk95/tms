@@ -1,0 +1,462 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    background-color: black;
+    padding: 15px 0;
+    /* z-index: 1000;
+    position: fixed;
+    width: 100%; */
+}
+
+.container {
+    margin: auto;
+    width: 1100px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    height: 30px;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: "Gyre Adventor", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_item:last-child {
+    margin-left: 0;
+}
+
+.top {
+    background-image: url(../img/photo_2019-12-19_21-23-31.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduction_logo {
+    width: 172px;
+}
+
+.white_text {
+    font-size: 16px;
+    width: 568px;
+    font-family: "Myriad Pro", sans-serif;
+    color: lightgray;
+    font-weight: lighter;
+}
+
+.description_title {
+    font-size: 36px;
+    line-height: 1.0;
+    width: 700px;
+    text-transform: uppercase;
+    font-family: "Myriad Pro", sans-serif;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.description_title:after {
+    content: "";
+    display: block;
+    border-top: 1px solid white;
+    width: 70px;
+    margin-top: 25px;
+}
+
+.download_button {
+    display: inline-block;
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    text-decoration: none;
+}
+
+.input_form {
+    position: inherit;
+    background-color: white;
+    right: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.datainput {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_title {
+    color: #333333;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    padding: 20px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0px;
+}
+
+.input {
+    margin-left: 0px;
+    width: 260px;
+    height: 50px;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 0cm;
+    text-orientation: sideways;
+    opacity: 0.5;
+    padding: 12px 25px;
+    outline: none;
+}
+
+.input_button {
+    width: inherit;
+    height: 50px;
+    background-color: #ff9b51;
+    font-size: 15px;
+    color: white;
+}
+
+.bold {
+    color: #ff9b51;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.social_title {
+    font-size: 20px;
+    width: inherit;
+    position: inherit;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    background-size: 100%;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.social_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_media {
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* z-index: 2; */
+}
+
+p {
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(148, 148, 148);
+    font-weight: lighter;
+}
+
+.social_references {
+    position: inherit;
+    right: 150px;
+    padding-top: 20px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-instagram, .fa-stumbleupon, .fa-rss, .fa-pinterest-p {
+    padding-right: 25px;
+    font-size: 40px;
+    color: #000;
+}
+
+.tabs {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f5f5f5;
+}
+
+.container_tab {
+    background: url(../img/Buildings.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tab {
+    height: 110px;
+    width: 110px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.tab:last-child {
+    margin-bottom: 0px;
+}
+
+.tab_wrapper {
+    width: 600px;
+    transform: translateY(5%);
+}
+
+.tab_description {
+    margin-left: 50px;
+}
+
+.tabs_title {
+    font-size: 20px;
+    width: inherit;
+    position: inherit;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: bold;
+    background-size: 100%;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.tabs_text_last {
+    margin-top: 12px;
+}
+
+.orange_button_small {
+    background-color: #ff8b38;
+    height: 43px;
+    width: 118px;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.orange_button_small:hover, .orange_button_small:active, .orange_button_small:focus {
+    background-color: rgb(190, 130, 76);
+    color: rgb(196, 190, 190);
+    transition: 0.2s linear;
+}
+
+.advantages {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.advantages_box {
+    display: flex;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h3 {
+    margin: 10px 10px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.title_structure {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    border-top: 1px solid orange;
+    width: 70px;
+    margin-top: 28px;
+    margin-left: 510px;
+}
+
+.pricing {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
+}
+
+.price_box {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.price_list {
+    background-color: #fff;
+    width: 280px;
+    height: 380px;
+}
+
+.price_item {
+    padding-bottom: 10px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 0.1px;
+    color: white;
+    padding: 10px;
+    background-color: #292927;
+    margin: 0px;
+}
+
+.price_item_orange_line {
+    padding-bottom: 10px;
+    background-color: rgb(33, 33, 33);
+    color: gray;
+    border: solid;
+    border-color: white;
+    border-width: 0.1px;
+    padding: 10px;
+    background-color: #292927;
+    margin: 0px;
+    font-style: italic;
+    font-size: 13px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: #ff8b38;
+}
+
+.price_item_orange {
+    padding-bottom: 10px;
+    background-color: #ff8b38;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 0.1px;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.lines {
+    padding: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+    border: 0.5px solid whitesmoke;
+    border-right: none;
+    border-left: none;
+    border-width: 1px;
+    width: 100%;
+    border-top: none;
+    color: #86878b;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.feedback {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.feedback_list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.comment {
+    background-color: #f5f5f5;
+    padding: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #F5F5F5;
+    border-bottom: 0;
+    margin-left: 18px;
+    padding-bottom: 12px;
+}
+
+.auxure_design {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: url(../img/bckgbuildings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.contacts {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.input_part {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.message_form {
+    font-size: inherit;
+    border-collapse: collapse;
+    border: 0cm;
+    text-orientation: sideways;
+    opacity: 0.5;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* .slider {
+    width: 200px;
+}
+
+.slide {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+} */
